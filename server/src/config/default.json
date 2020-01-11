@@ -1,0 +1,20 @@
+{
+  "server": {
+    "host": "localhost",
+    "port": 8000,
+    "protocol": "http"
+  },
+
+  "github_app": {
+    "client_id": "example_client_id",
+    "client_secret": "example_client_secret",
+    "redirect_uri": "api/oauth/redirect"
+  },
+
+  "postgres": {
+    "host": "postgres",
+    "user": "pethouse",
+    "password": "pethouse",
+    "database": "pethouse"
+  }
+}

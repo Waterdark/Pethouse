@@ -7,10 +7,15 @@ verify_ssl = true
 pylint = "*"
 pytest-flask = "*"
 requests-mock = "*"
+assertpy = "*"
+pylint-flask-sqlalchemy = "*"
 
 [packages]
 flask = "*"
 requests = "*"
+flask-sqlalchemy = "*"
+psycopg2-binary = "*"
+yoyo-migrations = "*"
 
 [requires]
 python_version = "3.7"
